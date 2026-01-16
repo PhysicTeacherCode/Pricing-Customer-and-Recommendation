@@ -31,3 +31,5 @@ df.to_sql(
     if_exists="replace",
     index=False
 )
+
+display(df.head(20))
