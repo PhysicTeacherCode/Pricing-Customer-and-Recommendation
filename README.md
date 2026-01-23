@@ -21,6 +21,7 @@ O projeto aborda desde a limpeza e preparação dos dados até a implementação
 
 *   `data/`: Contém os conjuntos de dados utilizados nas análises.
 *   `notebooks/`: Jupyter Notebooks com o passo a passo de cada estratégia e modelo.
+*   `reports/`: Contém relatórios e visualizações obtidas a partir das análises.
 *   `src/`: Scripts Python para automação de limpeza e criação de datasets.
 
 ## 📚 Conteúdo dos Notebooks:
