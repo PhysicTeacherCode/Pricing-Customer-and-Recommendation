@@ -4,6 +4,11 @@ Este repositório é um compilado de estratégias fundamentadas em **dados, esta
 
 O projeto aborda desde a limpeza e preparação dos dados até a implementação de modelos de sensibilidade de preço, análise de sazonalidade, classificação de clientes e sistemas de recomendação.
 
+## 💾 Dataset:
+
+* `Fonte`: [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/352/online+retail)
+* `Descrição`: Registro de vendas de um site de varejo contendo mais 50 mil registros de compras de mais 4000 clientes em 37 países.
+
 ## 📁 Estrutura do Repositório:
 
 *   `data/`: Contém os conjuntos de dados utilizados nas análises.
@@ -21,6 +26,20 @@ A análise está dividida em seis etapas principais:
 5.  **Classificação de Clientes (`5_customer_classification.ipynb`)**: Clusterização de clientes para estratégias de vendas personalizadas.
 6.  **Recomendação de Produtos (`6_product_recommendation.ipynb`)**: Recomendação de produtos com base no comportamento de compra.
 
+## 📊 Resultados:
+
+### Distribuição de produtos de acordo com preço médio e a demanda:
+![Preço e Quantidade](reports/price_quantity.png)
+
+### Distribuição de receita por dia de cada mês com maiores vendas:
+![Melhores Meses Receita](reports/highest_months_revenue.png)
+
+### Heatmap que indica quais dias da semana de cada mês receberam mais receita:
+![Heatmap Semanal](reports/heatmap_semanal.png)
+
+### Distribuição RFM por cluster de clientes:
+![Cluster de Cliente](reports/kmeans_clusters.png)
+
 ## 🛠️ Tecnologias Utilizadas:
 
 *   **Linguagem:** Python
@@ -29,4 +48,9 @@ A análise está dividida em seis etapas principais:
 *   **Machine Learning:** Scikit-learn
 *   **Ambiente:** Jupyter Notebook
 
-**Autor:** [PhysicTeacherCode](https://github.com/PhysicTeacherCode)
+## 👤 Autor
+
+**Diego de Lima Fernandes**
+- LinkedIn: [linkedin.com/in/diegulus](https://www.linkedin.com/in/diegulus/)
+- GitHub: [@PhysicTeacherCode](https://github.com/PhysicTeacherCode)
+- Email: diego196095@gmail.com
