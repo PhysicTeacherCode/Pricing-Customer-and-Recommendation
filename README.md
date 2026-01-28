@@ -19,6 +19,11 @@ O projeto aborda desde a limpeza e preparação dos dados até a implementação
 
 ## 📊 Resultados Principais:
 
+### 📈 Dashboard no ***POWER BI***:
+Em `reports/`, é possível encontrar o arquivo .pbix para visualição no POWER BI.
+
+![POWER BI](reports/power_bi_report.png)
+
 ### 🛒 Distribuição de produtos de acordo com preço médio e a demanda:
 Foi observado uma relação inversa entre preço e demanda:
 * Menores preços -> Maior Demanda;
